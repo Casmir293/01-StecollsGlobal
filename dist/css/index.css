@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 nav {
@@ -94,5 +99,35 @@ nav ul li a:hover {
   }
   .myStroke {
     background-color: #62e862 !important;
+  }
+}
+.sliderPixDiv {
+  height: 450px;
+}
+.sliderPixDiv img {
+  height: 75%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.myAnimate {
+  background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #000, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 0.5rem;
+  animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+}
+@keyframes reveal {
+  80% {
+    letter-spacing: 1.2px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
   }
 }/*# sourceMappingURL=index.css.map */

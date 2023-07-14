@@ -1,3 +1,9 @@
 @import "reset";
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+html {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 @import "variables";
 @import "nav-bar";
+@import "slider.scss";
