@@ -1,15 +1,14 @@
 nav {
-  background-color: $primaryColor;
+  //background-color: $primaryColor;
   img {
     width: 50px;
-    height: auto;
+    height: 50px;
   }
 }
 
 nav ul li a {
   font-weight: 800;
   text-transform: uppercase;
-  margin: 0 20px;
 }
 
 //  Nav Hover Effect
@@ -20,7 +19,7 @@ nav ul li a:before {
 }
 
 nav ul li a:hover {
-  color: #62e862 !important;
+  color: #198754 !important;
 }
 
 .myStroke ul li a {
@@ -37,7 +36,6 @@ nav ul li a:hover {
   content: ".";
   color: transparent;
   background: #aaa;
-  height: 1px;
 }
 
 .myStroke ul li a:hover:after {
@@ -92,6 +90,14 @@ nav ul li a:hover {
     }
   }
   .myStroke {
-    background-color: $primaryColor !important;
+    ul {
+      li {
+        border: none !important;
+        a {
+          color: $tertiaryColor !important;
+        }
+      }
+    }
+    background-color: $secondaryColor !important;
   }
 }

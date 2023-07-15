@@ -16,6 +16,9 @@
   font-size: 0.5rem;
   animation: reveal 3000ms ease-in-out forwards 200ms,
     glow 2500ms linear infinite 2000ms;
+  h3 {
+    font-weight: 800;
+  }
 
   @keyframes reveal {
     80% {
@@ -29,5 +32,37 @@
     40% {
       text-shadow: 0 0 8px #fff;
     }
+  }
+}
+
+//  Media Query for Tablets
+@media only screen and (min-width: 576px) {
+  .sliderPixDiv {
+    height: 650px;
+    img {
+      object-fit: contain;
+    }
+  }
+
+  .myAnimate {
+    font-size: 1.5rem;
+    h3 {
+      font-size: 3rem;
+    }
+    @keyframes reveal {
+      80% {
+        letter-spacing: 2px;
+      }
+      100% {
+        background-size: 300% 300%;
+      }
+    }
+  }
+}
+
+//  Media Query for Laptops & Desktops
+@media only screen and (min-width: 992px) {
+  .sliderPixDiv {
+    height: 850px;
   }
 }

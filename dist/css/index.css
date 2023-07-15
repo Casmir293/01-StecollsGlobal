@@ -9,18 +9,14 @@ html {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-nav {
-  background-color: #62e862;
-}
 nav img {
   width: 50px;
-  height: auto;
+  height: 50px;
 }
 
 nav ul li a {
   font-weight: 800;
   text-transform: uppercase;
-  margin: 0 20px;
 }
 
 nav ul li a,
@@ -30,7 +26,7 @@ nav ul li a:before {
 }
 
 nav ul li a:hover {
-  color: #62e862 !important;
+  color: #198754 !important;
 }
 
 .myStroke ul li a {
@@ -47,7 +43,6 @@ nav ul li a:hover {
   content: ".";
   color: transparent;
   background: #aaa;
-  height: 1px;
 }
 
 .myStroke ul li a:hover:after {
@@ -98,7 +93,13 @@ nav ul li a:hover {
     width: 70px;
   }
   .myStroke {
-    background-color: #62e862 !important;
+    background-color: #fff !important;
+  }
+  .myStroke ul li {
+    border: none !important;
+  }
+  .myStroke ul li a {
+    color: #000 !important;
   }
 }
 .sliderPixDiv {
@@ -118,6 +119,9 @@ nav ul li a:hover {
   font-size: 0.5rem;
   animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
 }
+.myAnimate h3 {
+  font-weight: 800;
+}
 @keyframes reveal {
   80% {
     letter-spacing: 1.2px;
@@ -129,5 +133,34 @@ nav ul li a:hover {
 @keyframes glow {
   40% {
     text-shadow: 0 0 8px #fff;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .sliderPixDiv {
+    height: 650px;
+  }
+  .sliderPixDiv img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .myAnimate {
+    font-size: 1.5rem;
+  }
+  .myAnimate h3 {
+    font-size: 3rem;
+  }
+  @keyframes reveal {
+    80% {
+      letter-spacing: 2px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+  }
+}
+@media only screen and (min-width: 992px) {
+  .sliderPixDiv {
+    height: 850px;
   }
 }/*# sourceMappingURL=index.css.map */
