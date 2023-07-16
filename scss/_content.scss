@@ -3,7 +3,7 @@
   text-align: justify;
 }
 
-//  About Us
+//  Why Us
 .why-us {
   background: #e9ffd5;
   p {
@@ -11,9 +11,21 @@
   }
 }
 
+//  Explore Products
+.explore {
+  text-align: justify;
+  img {
+    width: 295px;
+    height: 295px;
+    object-fit: cover;
+  }
+}
+
 //  Media Query for Tablets
 @media only screen and (min-width: 576px) {
   .why-us {
-    box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+    margin: 15px 0px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 24px #545652, -12px -12px 24px #198754;
   }
 }

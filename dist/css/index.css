@@ -175,8 +175,20 @@ nav ul li a:hover {
   text-align: justify;
 }
 
+.explore {
+  text-align: justify;
+}
+.explore img {
+  width: 295px;
+  height: 295px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media only screen and (min-width: 576px) {
   .why-us {
-    box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+    margin: 15px 0px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 24px #545652, -12px -12px 24px #198754;
   }
 }/*# sourceMappingURL=index.css.map */
