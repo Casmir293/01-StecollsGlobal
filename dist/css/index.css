@@ -163,4 +163,20 @@ nav ul li a:hover {
   .sliderPixDiv {
     height: 850px;
   }
+}
+.welcome {
+  text-align: justify;
+}
+
+.why-us {
+  background: #e9ffd5;
+}
+.why-us p {
+  text-align: justify;
+}
+
+@media only screen and (min-width: 576px) {
+  .why-us {
+    box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+  }
 }/*# sourceMappingURL=index.css.map */
