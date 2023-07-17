@@ -21,22 +21,14 @@
   }
 }
 
-// Customer Review
+//  Customer Review
 .customer-review {
   .aoe-title {
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 600;
-    color: $tertiaryColor;
+    @include heading;
   }
 
   .line {
-    width: 75px;
-    height: 5px;
-    background-color: $primaryColor;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 70px;
+    @include heading-line;
   }
 
   //  Carousel
@@ -147,6 +139,17 @@
     color: $primaryColor;
     text-shadow: none;
     font-weight: bolder;
+  }
+}
+
+//  Contact Us
+.contact-us {
+  .aoe-title {
+    @include heading;
+  }
+
+  .line {
+    @include heading-line;
   }
 }
 

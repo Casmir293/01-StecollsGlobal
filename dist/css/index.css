@@ -102,6 +102,13 @@ nav ul li a:hover {
     color: #000 !important;
   }
 }
+.carousel-indicators button {
+  background-color: #198754 !important;
+}
+.carousel-indicators .active {
+  background-color: #198754 !important;
+}
+
 .sliderPixDiv {
   height: 450px;
 }
@@ -299,6 +306,21 @@ nav ul li a:hover {
   color: #198754;
   text-shadow: none;
   font-weight: bolder;
+}
+
+.contact-us .aoe-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+}
+.contact-us .line {
+  width: 75px;
+  height: 5px;
+  background-color: #198754;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 70px;
 }
 
 @media only screen and (min-width: 576px) {

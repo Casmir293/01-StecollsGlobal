@@ -10,11 +10,15 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/55ecbec157.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="icon" href="/img/SG-Logo.svg" />
     <title>StecollsGloball</title>
   </head>
   <body>
-    <!--Nav Bar-->
+    <!-- Nav Bar -->
     <nav class="myNavBar navbar navbar-expand-sm navbar-dark p-0">
       <div class="container-fluid p-0">
         <a class="navbar-brand ms-3 py-0" href="#"
@@ -58,7 +62,7 @@
     </nav>
 
     <main>
-      <!--Slider-->
+      <!-- Slider -->
       <section>
         <div
           id="demo"
@@ -66,7 +70,7 @@
           data-bs-ride="carousel"
           data-bs-interval="8000"
         >
-          <!-- Indicators/dots -->
+          <!--  Indicators/dots  -->
           <div class="carousel-indicators">
             <button
               type="button"
@@ -121,7 +125,7 @@
             ></button>
           </div>
 
-          <!-- The slideshow/carousel -->
+          <!--  The slideshow/carousel  -->
           <div class="carousel-inner">
             <div class="sliderPixDiv carousel-item active">
               <img
@@ -245,7 +249,7 @@
             </div>
           </div>
 
-          <!-- Left and right controls/icons -->
+          <!--  Left and right controls/icons  -->
           <button
             class="carousel-control-prev"
             type="button"
@@ -265,9 +269,9 @@
         </div>
       </section>
 
-      <!--Content-->
+      <!-- Content -->
       <section class="container">
-        <!--About Us-->
+        <!-- About Us -->
         <aside id="about">
           <div class="text-light bg-success p-4 text-center h5 shadow-lg">
             Welcome to <b>STECOLLS GLOBAL</b>
@@ -312,7 +316,7 @@
           </div>
         </aside>
 
-        <!--Why Us-->
+        <!-- Why Us -->
         <aside class="why-us p-2 pt-3 mt-sm-5">
           <h4 class="text-success">Why Choose Us?</h4>
           <div class="lh-lg row">
@@ -364,7 +368,7 @@
           </div>
         </aside>
 
-        <!--Explore Products-->
+        <!-- Explore Products -->
         <aside class="my-3 lh-lg mt-sm-5 explore">
           <h4 class="my-3 my-lg-5 text-success text-center">
             Explore Our Product Categories:
@@ -375,7 +379,7 @@
               <img
                 src="/img/home-page/content/ayrus-hill-wI9aSTf8Hwo-unsplash.jpg"
                 alt=""
-                class="rounded-circle"
+                class="rounded-circle mx-auto d-flex"
                 loading="lazy"
               />
               <p class="mt-1 mb-4">
@@ -391,7 +395,7 @@
               <img
                 src="/img/home-page/content/photo-1608043152269-423dbba4e7e1.avif"
                 alt=""
-                class="rounded-circle"
+                class="rounded-circle mx-auto d-flex"
                 loading="lazy"
               />
               <p class="mt-1 mb-4">
@@ -410,7 +414,7 @@
               <img
                 src="/img/home-page/content/photo-1565536421961-1f165e0c981e.avif"
                 alt=""
-                class="rounded-circle"
+                class="rounded-circle mx-auto d-flex"
                 loading="lazy"
               />
               <p class="mt-1 mb-4">
@@ -428,7 +432,7 @@
               <img
                 src="/img/home-page/content/photo-1426024084828-5da21e13f5dc.avif"
                 alt=""
-                class="rounded-circle"
+                class="rounded-circle mx-auto d-flex"
                 loading="lazy"
               />
               <p class="mt-1 mb-4">
@@ -444,7 +448,7 @@
           </div>
         </aside>
 
-        <!--Customer Reviews-->
+        <!-- Customer Reviews -->
         <aside class="testimonials-section customer-review">
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 testimonials">
@@ -460,7 +464,7 @@
                   data-bs-ride="carousel"
                   data-bs-interval="5000"
                 >
-                  <!-- Wrapper for carousel items -->
+                  <!--  Wrapper for carousel items  -->
                   <div class="carousel-inner">
                     <div class="item carousel-item active">
                       <div class="img-box">
@@ -517,14 +521,14 @@
                       <h6 class="company-name">Nations Trust Bank</h6>
                     </div>
                   </div>
-                  <!-- Carousel controls -->
+                  <!--  Carousel controls  -->
                   <a
                     class="carousel-control left carousel-control-prev"
                     href="#myCarousel"
                     data-bs-target="#myCarousel"
                     data-bs-slide="prev"
                     ><span>Prev</span>
-                    <i class="fa fa-angle-left"></i>
+                    <i class="fa fa-angle-left d-none"></i>
                   </a>
                   <a
                     class="carousel-control right carousel-control-next"
@@ -532,14 +536,135 @@
                     data-bs-target="#myCarousel"
                     data-bs-slide="next"
                     ><span>Next</span>
-                    <i class="fa fa-angle-right"></i>
+                    <i class="fa fa-angle-right d-none"></i>
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </aside>
-        <!--Get in Touch-->
+
+        <!-- Get in Touch -->
+        <aside class="contact-us" id="contact">
+          <h4 class="my-3 my-lg-5 text-success text-center">Get In Touch</h4>
+          <!-- Contact Form -->
+          <form action="mailto:casmir293@gmail.com">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="mb-4 mt-3">
+                  <label class="pb-2" for="name"><b>Full Name</b></label>
+                  <input
+                    type="text"
+                    class="form-control p-3"
+                    id="name"
+                    placeholder="Enter Name"
+                    name="name"
+                  />
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="mb-4 mt-3">
+                  <label class="pb-2" for="email"><b>Email Address</b></label>
+                  <input
+                    type="email"
+                    class="form-control p-3"
+                    id="email"
+                    placeholder="Enter Email Address"
+                    name="email"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="mb-4 mt-3">
+                  <label class="pb-2" for="number"><b>Phone Number</b></label>
+                  <input
+                    type="number"
+                    class="form-control p-3"
+                    id="number"
+                    placeholder="Enter Number"
+                    name="number"
+                  />
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="mb-4 mt-3">
+                  <label class="pb-2" for="subject"><b>Subject</b></label>
+                  <input
+                    type="text"
+                    class="form-control p-3"
+                    id="subject"
+                    placeholder="Enter Subject"
+                    name="subject"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4 mt-3">
+              <label for="textarea" class="form-label pb-2"
+                ><b>Enter Message</b></label
+              >
+              <textarea
+                class="form-control p-3"
+                id="textarea"
+                rows="10"
+                placeholder="Enter Message"
+                name="textarea"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-outline-success mt-3 mb-5">
+              Submit
+            </button>
+          </form>
+
+          <!-- Contact Address -->
+          <div class="row">
+            <div class="col-sm-5">
+              <div
+                class="text-center my-3 rounded mx-5 p-3 bg-success text-light"
+              >
+                <i
+                  class="fa-sharp fa-solid fa-envelope fa-xl"
+                  style="color: #000000"
+                ></i
+                ><br />
+                <h4 class="text-dark">Email Address</h4>
+                <p>
+                  <a
+                    href="mailto:admin@cascouriers.com"
+                    class="text-decoration-none text-light fs-6"
+                    >service@stecollsglobal.com</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="col-sm-7">
+              <div
+                class="text-center my-3 rounded mx-5 p-3 bg-success text-light"
+              >
+                <i
+                  class="fa-sharp fa-solid fa-location-dot fa-xl"
+                  style="color: #000000"
+                ></i
+                ><br />
+                <h4 class="text-dark">Location</h4>
+                <p class="fs-6">
+                  Shop 3, BLK 3, SkyHost Plaza, FFDA, Alaba International
+                  Market, Lagos, Nigeria.
+                </p>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Join Our Community -->
         <aside></aside>
       </section>
     </main>

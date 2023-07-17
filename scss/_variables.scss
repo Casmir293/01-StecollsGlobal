@@ -1,3 +1,19 @@
 $primaryColor: #198754;
 $secondaryColor: #fff;
 $tertiaryColor: #000;
+
+@mixin heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  color: $tertiaryColor;
+}
+
+@mixin heading-line {
+  width: 75px;
+  height: 5px;
+  background-color: $primaryColor;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
