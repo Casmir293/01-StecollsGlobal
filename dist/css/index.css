@@ -19,6 +19,20 @@ nav ul li a {
   text-transform: uppercase;
 }
 
+.top-details {
+  display: none;
+  font-size: 0.8rem;
+  margin-left: 50px;
+}
+.top-details ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.top-details ul li {
+  list-style: none;
+}
+
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
@@ -100,6 +114,14 @@ nav ul li a:hover {
   }
   .myStroke ul li a {
     color: #000 !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .top-details {
+    display: block;
+  }
+  .myStroke {
+    justify-content: space-between !important;
   }
 }
 .carousel-indicators button {
@@ -314,6 +336,12 @@ nav ul li a:hover {
   margin: auto;
   margin-top: 20px;
   margin-bottom: 70px;
+}
+
+.fixed-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
 }
 
 @media only screen and (min-width: 576px) {

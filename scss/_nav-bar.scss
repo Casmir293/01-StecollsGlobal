@@ -10,6 +10,20 @@ nav ul li a {
   text-transform: uppercase;
 }
 
+.top-details {
+  display: none;
+  font-size: 0.8rem;
+  margin-left: 50px;
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    li {
+      list-style: none;
+    }
+  }
+}
+
 //  Nav Hover Effect
 nav ul li a,
 nav ul li a:after,
@@ -98,5 +112,15 @@ nav ul li a:hover {
       }
     }
     background-color: $secondaryColor !important;
+  }
+}
+
+//  Media Query for Large Laptops & Tablets
+@media only screen and (min-width: 1200px) {
+  .top-details {
+    display: block;
+  }
+  .myStroke {
+    justify-content: space-between !important;
   }
 }

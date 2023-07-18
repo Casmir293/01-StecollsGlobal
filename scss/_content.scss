@@ -134,7 +134,7 @@
   }
 }
 
-// Join Our Community
+//  Join Our Community
 .join-community {
   .my-title {
     @include heading;
@@ -145,7 +145,12 @@
   }
 }
 
-//
+//  Fixed Whatsapp Div
+.fixed-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+}
 
 //  Media Query for Tablets
 @media only screen and (min-width: 576px) {
