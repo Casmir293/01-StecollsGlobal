@@ -10,3 +10,6 @@ window.onscroll = () => {
     collapsibleNavbar.classList.add("myStrokeScroll");
   }
 };
+
+//  Display Year
+document.querySelector(".myYear").innerHTML = new Date().getFullYear();
