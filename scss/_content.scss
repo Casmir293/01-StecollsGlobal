@@ -1,14 +1,6 @@
-//  Welcome Section
-.welcome {
-  text-align: justify;
-}
-
 //  Why Us
 .why-us {
   background: #e9ffd5;
-  p {
-    text-align: justify;
-  }
 }
 
 //  Explore Products
@@ -142,9 +134,9 @@
   }
 }
 
-//  Contact Us
-.contact-us {
-  .aoe-title {
+// Join Our Community
+.join-community {
+  .my-title {
     @include heading;
   }
 
@@ -153,10 +145,17 @@
   }
 }
 
+//
+
 //  Media Query for Tablets
 @media only screen and (min-width: 576px) {
+  //  Welcome Section
+  .welcome {
+    line-height: 2;
+  }
   //  Why Us
   .why-us {
+    line-height: 2;
     margin: 15px 0px;
     border-radius: 20px;
     box-shadow: 12px 12px 24px #545652, -12px -12px 24px #198754;

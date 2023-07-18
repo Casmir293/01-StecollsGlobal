@@ -171,15 +171,8 @@ nav ul li a:hover {
     height: 850px;
   }
 }
-.welcome {
-  text-align: justify;
-}
-
 .why-us {
   background: #e9ffd5;
-}
-.why-us p {
-  text-align: justify;
 }
 
 .explore {
@@ -308,13 +301,13 @@ nav ul li a:hover {
   font-weight: bolder;
 }
 
-.contact-us .aoe-title {
+.join-community .my-title {
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
   color: #000;
 }
-.contact-us .line {
+.join-community .line {
   width: 75px;
   height: 5px;
   background-color: #198754;
@@ -324,7 +317,11 @@ nav ul li a:hover {
 }
 
 @media only screen and (min-width: 576px) {
+  .welcome {
+    line-height: 2;
+  }
   .why-us {
+    line-height: 2;
     margin: 15px 0px;
     border-radius: 20px;
     box-shadow: 12px 12px 24px #545652, -12px -12px 24px #198754;
