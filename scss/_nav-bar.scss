@@ -5,6 +5,30 @@ nav {
   }
 }
 
+.myNavBar {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+.myStroke {
+  background-color: $tertiaryColor;
+  ul {
+    li {
+      a {
+        color: $secondaryColor !important;
+      }
+    }
+  }
+}
+.myScroll {
+  transition: background-color 0.4s ease-out;
+}
+
+.scroll {
+  background-color: $primaryColor;
+  transition: background-color 0.4s ease-out;
+}
+
 nav ul li a {
   font-weight: 800;
   text-transform: uppercase;
@@ -97,21 +121,27 @@ nav ul li a:hover {
 
 //  Media Query for Tablet
 @media only screen and (min-width: 576px) {
+  .myStrokeScroll {
+    background-color: $primaryColor !important;
+    transition: background-color 0.4s ease-out;
+  }
   nav {
     img {
       width: 70px;
     }
   }
   .myStroke {
+    transition: background-color 0.4s ease-out;
+    background-color: $secondaryColor;
     ul {
       li {
         border: none !important;
         a {
+          border: none !important;
           color: $tertiaryColor !important;
         }
       }
     }
-    background-color: $secondaryColor !important;
   }
 }
 

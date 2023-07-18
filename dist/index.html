@@ -20,7 +20,7 @@
   <body>
     <!-- Nav Bar -->
     <nav class="myNavBar navbar navbar-expand-sm navbar-dark p-0">
-      <div class="container-fluid p-0">
+      <div class="myScroll container-fluid p-0" id="scrollId">
         <a class="navbar-brand ms-3 py-0" href="#"
           ><img src="/img/SG-Logo.svg" alt="logo"
         /></a>
@@ -33,7 +33,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="myStroke collapse navbar-collapse bg-dark justify-content-sm-end"
+          class="myStroke collapse navbar-collapse justify-content-sm-end"
           id="collapsibleNavbar"
         >
           <div class="top-details">
@@ -60,23 +60,19 @@
           </div>
           <ul class="navbar-nav">
             <li class="nav-item border-bottom border-secondary">
-              <a class="nav-link text-light p-3" href="#"><b>Home</b></a>
+              <a class="nav-link p-3" href="#"><b>Home</b></a>
             </li>
             <li class="nav-item border-bottom border-secondary">
-              <a class="nav-link text-light p-3" href="#about"><b>About</b></a>
+              <a class="nav-link p-3" href="#about"><b>About</b></a>
             </li>
             <li class="nav-item border-bottom border-secondary">
-              <a class="nav-link text-light p-3" href="#contact"
-                ><b>Contact</b></a
-              >
+              <a class="nav-link p-3" href="#contact"><b>Contact</b></a>
             </li>
             <li class="nav-item border-bottom border-secondary">
-              <a class="nav-link text-light p-3" href="gallery.html"
-                ><b>Gallery</b></a
-              >
+              <a class="nav-link p-3" href="gallery.html"><b>Gallery</b></a>
             </li>
             <li class="nav-item border-bottom border-secondary">
-              <a class="nav-link text-light p-3" href="cac.html"><b>CAC</b></a>
+              <a class="nav-link p-3" href="cac.html"><b>CAC</b></a>
             </li>
           </ul>
         </div>
@@ -785,6 +781,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="/dist/js/scroll.js"></script>
     <script>
       document.querySelector(".myYear").innerHTML = new Date().getFullYear();
     </script>

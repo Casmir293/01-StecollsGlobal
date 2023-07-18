@@ -2,6 +2,20 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 * {
   font-family: "Source Sans Pro", sans-serif;
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  body {
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
 }
 
 @import "variables";
