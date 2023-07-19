@@ -18,7 +18,7 @@
 }
 * body {
   animation-name: fade;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
@@ -400,5 +400,33 @@ nav ul li a:hover {
   }
   .customer-review .carousel-control-next span {
     top: 29%;
+  }
+}
+.cac {
+  text-align: justify;
+}
+.cac .my-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+}
+.cac .line {
+  width: 75px;
+  height: 5px;
+  background-color: #198754;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+@media only screen and (min-width: 576px) {
+  .cac .cac-img {
+    display: flex;
+    justify-content: center;
+  }
+  .cac .cac-img img {
+    width: 607px !important;
+    height: 800px !important;
   }
 }/*# sourceMappingURL=index.css.map */

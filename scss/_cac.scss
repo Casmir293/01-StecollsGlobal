@@ -1,0 +1,24 @@
+.cac {
+  text-align: justify;
+  .my-title {
+    @include heading;
+  }
+
+  .line {
+    @include heading-line;
+  }
+}
+
+//  Media Query for Tablets
+@media only screen and (min-width: 576px) {
+  .cac {
+    .cac-img {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 607px !important;
+        height: 800px !important;
+      }
+    }
+  }
+}

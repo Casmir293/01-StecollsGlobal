@@ -13,7 +13,7 @@
 
   body {
     animation-name: fade;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
   }
 }
@@ -22,3 +22,5 @@
 @import "nav-bar";
 @import "slider";
 @import "content";
+@import "cac";
+@import "gallery";
