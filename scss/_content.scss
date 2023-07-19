@@ -23,6 +23,10 @@
     @include heading-line;
   }
 
+  .testimonial {
+    height: 150px;
+  }
+
   //  Carousel
   .col-center {
     margin: 0 auto;
@@ -167,7 +171,11 @@
   }
 
   //  Customer Review
+
   .customer-review {
+    .testimonial {
+      height: 100px;
+    }
     .carousel-control-prev span {
       top: 29%;
     }

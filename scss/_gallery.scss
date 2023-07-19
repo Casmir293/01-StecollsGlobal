@@ -1,0 +1,47 @@
+.gallery {
+  text-align: justify;
+  .my-title {
+    @include heading;
+  }
+
+  .line {
+    @include heading-line;
+  }
+
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px double $primaryColor;
+  }
+}
+
+//  Media Query for Tablets
+@media only screen and (min-width: 576px) {
+  .gallery {
+    .carousel-item {
+      display: flex !important;
+      justify-content: center;
+      img {
+        width: 70%;
+        height: 550px;
+      }
+    }
+    .navigate {
+      background-color: $primaryColor !important;
+    }
+  }
+}
+
+//  Media Query for Tablets
+@media only screen and (min-width: 992px) {
+  .gallery {
+    .carousel-item {
+      img {
+        width: 50%;
+        height: 650px;
+      }
+    }
+  }
+}

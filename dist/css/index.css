@@ -262,6 +262,9 @@ nav ul li a:hover {
   margin-top: 20px;
   margin-bottom: 70px;
 }
+.customer-review .testimonial {
+  height: 150px;
+}
 .customer-review .col-center {
   margin: 0 auto;
   float: none !important;
@@ -395,6 +398,9 @@ nav ul li a:hover {
     border-radius: 20px;
     box-shadow: 12px 12px 24px #545652, -12px -12px 24px #198754;
   }
+  .customer-review .testimonial {
+    height: 100px;
+  }
   .customer-review .carousel-control-prev span {
     top: 29%;
   }
@@ -428,5 +434,50 @@ nav ul li a:hover {
   .cac .cac-img img {
     width: 607px !important;
     height: 800px !important;
+  }
+}
+.gallery {
+  text-align: justify;
+}
+.gallery .my-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+}
+.gallery .line {
+  width: 75px;
+  height: 5px;
+  background-color: #198754;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.gallery img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  border: 2px double #198754;
+}
+
+@media only screen and (min-width: 576px) {
+  .gallery .carousel-item {
+    display: flex !important;
+    justify-content: center;
+  }
+  .gallery .carousel-item img {
+    width: 70%;
+    height: 550px;
+  }
+  .gallery .navigate {
+    background-color: #198754 !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .gallery .carousel-item img {
+    width: 50%;
+    height: 650px;
   }
 }/*# sourceMappingURL=index.css.map */
