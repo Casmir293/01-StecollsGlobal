@@ -31,11 +31,12 @@ www.stecollsglobal.com
 ### Installation
 
     git clone https://github.com/casmir293/01-StecollsGlobal.git
+
     cd 01-StecollsGlobal
 
 ### Usage
 
-The app is ready for use after installation. There's no need for extra configuration.
+The app is ready to be hosted locally, remotely, or live after installation.
 
 ## Screenshots
 
