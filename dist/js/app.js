@@ -1,4 +1,4 @@
-// Nav Scroll Animation
+//  Nav Scroll Animation
 window.onscroll = () => {
   const nav = document.querySelector("#scrollId");
   const collapsibleNavbar = document.querySelector("#collapsibleNavbar");
